@@ -1,6 +1,7 @@
 # Copyright (C) 2018-2024 Intel Corporation
 # SPDX-License-Identifier: Apache-2.0
 #
+cmake_policy(SET CMP0149 NEW)
 
 if(WIN32)
     # CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION is only set when
